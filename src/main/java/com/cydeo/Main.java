@@ -6,11 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList items = new ArrayList();
+        ArrayList<Integer> items = new ArrayList();  //ArrayList only accepts objects belongs to Integer class
         items.add(1);
         items.add(2);
         items.add(3);
         items.add(4);
+//        items.add("Apple");
 
 
         printDoubled(items);
@@ -18,9 +19,9 @@ public class Main {
 
     }
 
-    private static void printDoubled(ArrayList items) {
-        for (Object i : items) {
-            System.out.println((Integer)i*2);
+    private static void printDoubled(ArrayList<Integer> items) {
+        for (Integer i : items) {
+            System.out.println(i*2);
         }
     }
 }
