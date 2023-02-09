@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="new classes">
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="generics">
+      <change afterPath="$PROJECT_DIR$/m1-generics1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cydeo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/FootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +46,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11"
   }
 }]]></component>
   <component name="RunManager">
@@ -69,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675628746997</updated>
-      <workItem from="1675628749089" duration="6163000" />
+      <workItem from="1675628749089" duration="7945000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -99,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675631842620</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="generics">
+      <created>1675635073976</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675635073976</updated>
+    </task>
+    <task id="LOCAL-00006" summary="generics">
+      <created>1675635099112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675635099113</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,8 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="printDoubled method is created" />
-    <MESSAGE value="generics" />
     <MESSAGE value="new classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new classes" />
+    <MESSAGE value="generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics" />
   </component>
 </project>
