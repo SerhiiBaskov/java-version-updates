@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="generics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="enums" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -80,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675628746997</updated>
       <workItem from="1675628749089" duration="8491000" />
-      <workItem from="1678549374507" duration="2031000" />
+      <workItem from="1678549374507" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675969152601</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="enums">
+      <created>1678560560436</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678560560436</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +158,7 @@
     <MESSAGE value="printDoubled method is created" />
     <MESSAGE value="new classes" />
     <MESSAGE value="generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="generics" />
+    <MESSAGE value="enums" />
+    <option name="LAST_COMMIT_MESSAGE" value="enums" />
   </component>
 </project>
