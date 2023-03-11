@@ -18,7 +18,26 @@ public class Main {
             System.out.println(currency);
         }
 
+        Calculate(5, 2, MathOperator.PLUS);
 
+
+    }
+
+    public static void Calculate (int a, int b, MathOperator c){
+        switch (c){
+            case MULTIPLICATION:
+                System.out.println("Result is " +(a*b));
+                break;
+            case DIVISION:
+                System.out.println("Result is " +(a/b));
+                break;
+            case PLUS:
+                System.out.println("Result is " +(a+b));
+                break;
+            case MINUS:
+                System.out.println("Result is " +(a-b));
+                break;
+        }
     }
 
 }
