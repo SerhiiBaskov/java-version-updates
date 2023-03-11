@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="enums">
-      <change beforePath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/cydeo/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="enums" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675628746997</updated>
       <workItem from="1675628749089" duration="8491000" />
-      <workItem from="1678549374507" duration="7223000" />
+      <workItem from="1678549374507" duration="7545000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -188,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678565575035</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="enums">
+      <created>1678566076011</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678566076011</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
