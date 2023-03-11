@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="generics">
-      <change afterPath="$PROJECT_DIR$/m1-generics1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m2-enum/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/BaseballPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/FootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/FootballPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/SoccerPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cydeo/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +38,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11"
+    "jdk.selected.JAVA_MODULE": "11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics2" />
+      <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.Main" />
@@ -78,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675628746997</updated>
-      <workItem from="1675628749089" duration="7945000" />
+      <workItem from="1675628749089" duration="8491000" />
+      <workItem from="1678549374507" duration="2031000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -122,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675635099113</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="generics">
+      <created>1675969152601</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675969152601</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
