@@ -20,6 +20,10 @@ public class Main {
 
         Calculate(5, 2, MathOperator.PLUS);
 
+        System.out.println("How to retrieve the constant value");
+        System.out.println(Currency.PENNY.getValue());
+        System.out.println(Currency.PENNY.ordinal());  // getting index number
+
 
     }
 
