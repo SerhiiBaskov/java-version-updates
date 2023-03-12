@@ -13,8 +13,13 @@ public class CountNumberOfElements {
 
     }
 
-    public static <T> int countIf(List<Integer> a, UnaryPredicate T){
-
-        return 0;
+    public static <T> int countIf(List<T> a, UnaryPredicate <T> p){
+        int count = 0;
+        for (T each : a) {
+            if (p.test(each)) {
+                count++;
+            }
+        }
+        return count;
     }
 }
