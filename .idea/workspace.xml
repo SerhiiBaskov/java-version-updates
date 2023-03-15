@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/ArraySorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/ArraySorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m3-lambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m3-lambda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -45,10 +46,14 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cydeo.AppleTask" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics2" />
       <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics1" />
@@ -125,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675628746997</updated>
       <workItem from="1675628749089" duration="8491000" />
-      <workItem from="1678549374507" duration="16162000" />
+      <workItem from="1678549374507" duration="21183000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -253,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678651133100</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="lambda">
+      <created>1678651681584</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678651681584</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
