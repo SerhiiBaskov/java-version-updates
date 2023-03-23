@@ -1,5 +1,6 @@
 package com.cydeo.AppleTask;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -21,12 +22,12 @@ public class SortApples {
     }
 
     public static List<Apple> findAll(List<Apple> a, ApplePredicate p){
-        List<Apple> result = new List<Apple>;
+        List<Apple> result = new ArrayList<>();
         for (Apple apple : a) {
-            if(p.test(apple, p)){
+            if(p.test(apple)){
                 result.add(apple);
             }
-            return result;
         }
+        return result;
     }
 }
