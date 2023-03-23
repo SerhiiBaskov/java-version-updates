@@ -16,8 +16,12 @@ public class SortApples {
         Apple a6 = new Apple(Colour.GREEN, 210);
 
         List<Apple> list = Arrays.asList(a1, a2, a3, a4, a5,  a6);
-        List<Apple> list1 = findAll(list, new AppleGreenColorPredicate());
-        List<Apple> list2 = findAll(list, new AppleHeavyPredicate());
+        List<Apple> greenApples = findAll(list, new AppleGreenColorPredicate());
+        List<Apple> heavyApples = findAll(list, new AppleHeavyPredicate());
+
+        System.out.println("All inventory: "+list);
+        System.out.println("Green apples: "+greenApples);
+        System.out.println("Apples that heavy then 200g: "+heavyApples);
 
     }
 
