@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Apple test">
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/ArraySorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/ArraySorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/SortApples.java" beforeDir="false" afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/SortApples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +17,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/tasks/CountNumberOfElements.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/tasks/OddPredicate.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m1-generics1/src/main/java/com/cydeo/tasks/UnaryPredicate.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/Apple.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/AppleGreenColorPredicate.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/AppleHeavyPredicate.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/ApplePredicate.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/Colour.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/SortApples.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/ArraySorting.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,20 +47,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/ONLINE/IdeaProjects/java-version-updates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.cydeo.AppleTask" />
@@ -144,7 +157,8 @@
       <updated>1675628746997</updated>
       <workItem from="1675628749089" duration="8491000" />
       <workItem from="1678549374507" duration="21810000" />
-      <workItem from="1679588786778" duration="4874000" />
+      <workItem from="1679588786778" duration="10495000" />
+      <workItem from="1681812960611" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -307,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679592388222</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Lambda">
+      <created>1679595702022</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679595702022</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +353,7 @@
     <MESSAGE value="generics tasks" />
     <MESSAGE value="lambda" />
     <MESSAGE value="Apple test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apple test" />
+    <MESSAGE value="Lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda" />
   </component>
 </project>

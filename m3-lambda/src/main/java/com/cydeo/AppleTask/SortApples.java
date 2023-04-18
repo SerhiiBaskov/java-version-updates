@@ -23,6 +23,9 @@ public class SortApples {
         System.out.println("Green apples: "+greenApples);
         System.out.println("Apples that heavy then 200g: "+heavyApples);
 
+        ApplePredicate heavyList = apple -> apple.getWeight() >200;
+        findAll(list, heavyList);
+
     }
 
     public static List<Apple> findAll(List<Apple> a, ApplePredicate p){
