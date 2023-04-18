@@ -15,8 +15,12 @@ public class MailTest {
         list.add(new Member("Josh", 19, "male"));
         list.add(new Member("Mery", 29, "female"));
 
-        MemberPredicate filter18 = member -> member.getAge()>=18;
+        MemberPredicate filter18 = member -> member.getAge()>=18 && member.getAge()<=25
+                && member.getSex().equals("male");
         System.out.println(filterMembers(list, filter18));
+
+        System.out.println(filterMembers(list, member -> member.getAge()>=18 && member.getAge()<=25
+                && member.getSex().equals("male")));
 
     }
     public static List<Member> filterMembers (List<Member> list, MemberPredicate filter){
