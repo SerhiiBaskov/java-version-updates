@@ -15,6 +15,10 @@ public class MailTest {
         list.add(new Member("Josh", 19, "male"));
         list.add(new Member("Mery", 29, "female"));
 
+        list.forEach(member -> System.out.println(member));
+
+        System.out.println("-------------------------------------");
+
         MemberPredicate filter18 = member -> member.getAge()>=18 && member.getAge()<=25
                 && member.getSex().equals("male");
         System.out.println(filterMembers(list, filter18));
