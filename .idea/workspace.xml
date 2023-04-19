@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="User task">
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Upgrade Apple task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/SortApples.java" beforeDir="false" afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/AppleTask/SortApples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/UserTask/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/cydeo/UserTask/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortApples">
+  <component name="RunManager" selected="Application.OrangeTest2">
     <configuration name="FunctionalIntrfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.FunctionalIntrfaces" />
       <module name="m3-lambda" />
@@ -98,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrangeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.AppleTask.OrangeTest" />
+    <configuration name="OrangeTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.AppleTask.OrangeTest2" />
       <module name="m3-lambda" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrangeTest2" />
         <item itemvalue="Application.SortApples" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.FunctionalIntrfaces" />
         <item itemvalue="Application.MailTest" />
-        <item itemvalue="Application.OrangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +158,7 @@
       <workItem from="1675628749089" duration="8491000" />
       <workItem from="1678549374507" duration="21810000" />
       <workItem from="1679588786778" duration="10495000" />
-      <workItem from="1681812960611" duration="15466000" />
+      <workItem from="1681812960611" duration="18137000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -384,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681907899014</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Upgrade Apple task">
+      <created>1681908798443</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681908798443</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,6 +421,7 @@
     <MESSAGE value="Mail task" />
     <MESSAGE value="Function Interfaces" />
     <MESSAGE value="User task" />
-    <option name="LAST_COMMIT_MESSAGE" value="User task" />
+    <MESSAGE value="Upgrade Apple task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrade Apple task" />
   </component>
 </project>

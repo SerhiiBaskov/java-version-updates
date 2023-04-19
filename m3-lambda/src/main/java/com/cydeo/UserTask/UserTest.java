@@ -34,7 +34,7 @@ public class UserTest {
                 System.out.println(user);
             }
         }
-    };
+    }
 
 
 }
