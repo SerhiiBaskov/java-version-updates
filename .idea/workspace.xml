@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Upgrade Orange task">
-      <change afterPath="$PROJECT_DIR$/m4-double_colon_operators/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Double Colon Operators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4-double_colon_operators/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m4-double_colon_operators/src/main/java/com/cydeo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrangeTest2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FunctionalIntrfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.FunctionalIntrfaces" />
       <module name="m3-lambda" />
@@ -87,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MailTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.MailTask.MailTest" />
-      <module name="m3-lambda" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.Main" />
+      <module name="m4-double_colon_operators" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.MailTask.*" />
+          <option name="PATTERN" value="com.cydeo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.OrangeTest2" />
         <item itemvalue="Application.SortApples" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.FunctionalIntrfaces" />
-        <item itemvalue="Application.MailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +158,7 @@
       <workItem from="1675628749089" duration="8491000" />
       <workItem from="1678549374507" duration="21810000" />
       <workItem from="1679588786778" duration="10495000" />
-      <workItem from="1681812960611" duration="19945000" />
+      <workItem from="1681812960611" duration="23529000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -400,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681911493486</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Double Colon Operators">
+      <created>1682173447793</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682173447793</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +437,7 @@
     <MESSAGE value="User task" />
     <MESSAGE value="Upgrade Apple task" />
     <MESSAGE value="Upgrade Orange task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgrade Orange task" />
+    <MESSAGE value="Double Colon Operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Double Colon Operators" />
   </component>
 </project>
