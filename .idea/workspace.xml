@@ -71,10 +71,10 @@
       <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FunctionalIntrfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.FunctionalIntrfaces" />
-      <module name="m3-lambda" />
+  <component name="RunManager" selected="Application.CarTest">
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.CarTest" />
+      <module name="m4-double_colon_operators" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.*" />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.OrangeTest2" />
         <item itemvalue="Application.SortApples" />
         <item itemvalue="Application.UserTest" />
-        <item itemvalue="Application.FunctionalIntrfaces" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +158,7 @@
       <workItem from="1675628749089" duration="8491000" />
       <workItem from="1678549374507" duration="21810000" />
       <workItem from="1679588786778" duration="10495000" />
-      <workItem from="1681812960611" duration="23529000" />
+      <workItem from="1681812960611" duration="26210000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -405,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682173447793</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Double Colon Operators">
+      <created>1682177036495</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682177036495</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
