@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Double Colon Operators">
-      <change afterPath="$PROJECT_DIR$/m5-comparator_interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Comparator">
+      <change beforePath="$PROJECT_DIR$/m5-comparator_interface/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/m5-comparator_interface/src/main/java/com/cydeo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +157,7 @@
       <workItem from="1675628749089" duration="8491000" />
       <workItem from="1678549374507" duration="21810000" />
       <workItem from="1679588786778" duration="10495000" />
-      <workItem from="1681812960611" duration="30521000" />
+      <workItem from="1681812960611" duration="30910000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -421,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682192962623</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Comparator">
+      <created>1682247706554</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682247706555</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +458,8 @@
     <MESSAGE value="Upgrade Apple task" />
     <MESSAGE value="Upgrade Orange task" />
     <MESSAGE value="Double Colon Operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Double Colon Operators" />
+    <MESSAGE value="Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
