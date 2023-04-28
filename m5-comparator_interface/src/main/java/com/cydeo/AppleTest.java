@@ -21,7 +21,9 @@ public class AppleTest {
         inventory.sort(sortApple);
         System.out.println(inventory);
 
-        Comparator<Apple> sortApple1 = Comparator.comparing((Apple apple) -> apple.getWeight());
+        Comparator<Apple> sortApple2 = Comparator.comparing(Apple::getWeight);
+        inventory.sort(sortApple2);
+        System.out.println(inventory);
 
     }
 }
