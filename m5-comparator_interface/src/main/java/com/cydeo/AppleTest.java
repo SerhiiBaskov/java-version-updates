@@ -21,9 +21,21 @@ public class AppleTest {
         inventory.sort(sortApple);
         System.out.println(inventory);
 
-        Comparator<Apple> sortApple2 = Comparator.comparing(Apple::getWeight);
-        inventory.sort(sortApple2);
+        inventory.sort(Comparator.comparing(Apple::getWeight));
         System.out.println(inventory);
+
+        // Reversed order
+        System.out.println("Reversed order :");
+        inventory.sort(Comparator.comparing(Apple::getWeight).reversed());
+        System.out.println(inventory);
+
+        // Chaining
+        inventory
+                .sort(Comparator.comparing(Apple::getColour)
+                        .reversed()
+                        .thenComparing(Apple::getWeight));
+        System.out.println(inventory);
+
 
     }
 }

@@ -158,7 +158,7 @@
       <workItem from="1675628749089" duration="8491000" />
       <workItem from="1678549374507" duration="21810000" />
       <workItem from="1679588786778" duration="10495000" />
-      <workItem from="1681812960611" duration="34531000" />
+      <workItem from="1681812960611" duration="35576000" />
     </task>
     <task id="LOCAL-00001" summary="printDoubled method is created">
       <created>1675629923438</created>
@@ -454,7 +454,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682674979298</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Comparator">
+      <created>1682676091091</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1682676091091</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Comparator">
+      <created>1682676113894</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1682676113894</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
