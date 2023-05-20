@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class AppleTest {
+public class AppleTestAndComparatorTypes {
     public static void main(String[] args) {
 
         Apple a1 = new Apple(Colour.GREEN, 150);

@@ -1,27 +1,41 @@
 package com.cydeo.tasks.dishTask;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.Comparator;
 
 public class DishTask {
     public static void main(String[] args) {
 
-        List<Dish> menu = Arrays.asList(
-                new Dish("pork", false, 800, Type.MEAT),
-                new Dish("beef", false, 700, Type.MEAT),
-                new Dish("chicken", false, 400, Type.MEAT),
-                new Dish("fries", true, 530, Type.OTHER),
-                new Dish("rice", true, 350, Type.OTHER),
-                new Dish("fruit", true, 120, Type.OTHER),
-                new Dish("pizza", true, 550, Type.OTHER),
-                new Dish("prawns", false, 300, Type.FISH),
-                new Dish("salmon", false, 450, Type.FISH)
-        );
+        //Print all dish's name that has less than 400 calories
 
-        menu.stream()
+        DishData.getAll().stream()
                 .filter(i->i.getCalories()<400)
                 .map(Dish::getName)
                 .forEach(System.out::println);
+
+        //Print the length of the name of each dish
+
+        DishData.getAll().stream()
+                .map(Dish::getName)
+                .map(String::length)
+                .forEach(System.out::println);
+
+        //Print three high caloric dish name (>300)
+
+        DishData.getAll().stream()
+                .filter(i->i.getCalories()>300)
+                .sorted(Comparator.comparing(Dish::getCalories).reversed())
+                .limit(3)
+                .map(Dish::getName)
+                .forEach(System.out::println);
+
+        //Print all dish name that are below 400 calories in sorted
+
+        DishData.getAll().stream()
+                .filter(i->i.getCalories()<400)
+                .sorted(Comparator.comparing(Dish::getCalories))
+                .map(Dish::getName)
+                .forEach(System.out::println);
+
 
 
     }

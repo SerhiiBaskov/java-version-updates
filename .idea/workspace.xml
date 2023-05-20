@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Stream">
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Stream tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/StreamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/StreamOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m5-comparator_interface/src/main/java/com/cydeo/AppleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/m5-comparator_interface/src/main/java/com/cydeo/AppleTestAndComparatorTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/tasks/dishTask/DishData.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/tasks/dishTask/DishData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/tasks/dishTask/DishTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/tasks/dishTask/DishTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +77,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.DishTask">
-    <configuration name="AppleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.AppleTest" />
+    <configuration name="AppleTestAndComparatorTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.AppleTestAndComparatorTypes" />
       <module name="m5-comparator_interface" />
       <extension name="coverage">
         <pattern>
@@ -158,7 +160,7 @@
         <item itemvalue="Application.DishTask" />
         <item itemvalue="Application.com.cydeo.tasks.PrintTask" />
         <item itemvalue="Application.com.cydeo.StreamOperations" />
-        <item itemvalue="Application.com.cydeo.AppleTest" />
+        <item itemvalue="Application.AppleTestAndComparatorTypes" />
         <item itemvalue="Application.com.cydeo.Main" />
       </list>
     </recent_temporary>
@@ -175,14 +177,7 @@
       <workItem from="1678549374507" duration="21810000" />
       <workItem from="1679588786778" duration="10495000" />
       <workItem from="1681812960611" duration="41946000" />
-      <workItem from="1684591299939" duration="6703000" />
-    </task>
-    <task id="LOCAL-00001" summary="printDoubled method is created">
-      <created>1675629923438</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1675629923438</updated>
+      <workItem from="1684591299939" duration="8740000" />
     </task>
     <task id="LOCAL-00002" summary="generics">
       <created>1675630764838</created>
@@ -520,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684597560605</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Stream tasks">
+      <created>1684607955287</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1684607955288</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +557,8 @@
     <MESSAGE value="Double Colon Operators" />
     <MESSAGE value="Comparator" />
     <MESSAGE value="Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream" />
+    <MESSAGE value="Stream tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
