@@ -10,6 +10,20 @@ public class StreamOperations {
 //        list.forEach(x -> System.out.println(x));
         list.forEach(System.out::println);
 
+        // FILTER
+
+        System.out.println("filter");
+        list.stream()
+                .filter(i -> i%2==0)
+                .forEach(System.out::println);
+
+        // DISTINCT
+
+        System.out.println("distinct");
+        list.stream()
+                .filter(i -> i%2==0)
+                .distinct()
+                .forEach(System.out::println);
 
 
 
