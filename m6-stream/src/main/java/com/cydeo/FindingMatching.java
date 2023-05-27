@@ -29,6 +29,10 @@ public class FindingMatching {
         System.out.println(dish);
         System.out.println(dish.get());
 
+        System.out.println("FIND FIRST");
+        Optional<Dish> dish2 = DishData.getAll().stream().filter(Dish::isVegetarian).findFirst();
+        System.out.println(dish2.get());
+
     }
 
 }
