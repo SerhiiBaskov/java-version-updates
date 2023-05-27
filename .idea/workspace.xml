@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Employee task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/tasks/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/tasks/employeeTask/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindingMatching">
+  <component name="RunManager" selected="Application.EmployeeTest">
     <configuration name="DishTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tasks.dishTask.DishTask" />
       <module name="m6-stream" />
@@ -93,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.tasks.employeeTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindingMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.FindingMatching" />
-      <module name="m6-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,6 +127,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.cydeo.AppleTestAndComparatorTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.AppleTestAndComparatorTypes" />
+      <module name="m5-comparator_interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tasks.employeeTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.cydeo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.Main" />
       <module name="m4-double_colon_operators" />
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindingMatching" />
         <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.com.cydeo.StreamOperations" />
         <item itemvalue="Application.com.cydeo.tasks.dishTask.DishTask" />
         <item itemvalue="Application.com.cydeo.tasks.PrintTask" />
+        <item itemvalue="Application.com.cydeo.AppleTestAndComparatorTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,21 @@
       <workItem from="1679588786778" duration="10495000" />
       <workItem from="1681812960611" duration="41946000" />
       <workItem from="1684591299939" duration="11801000" />
-      <workItem from="1685207099571" duration="7335000" />
+      <workItem from="1685207099571" duration="2006000" />
+    </task>
+    <task id="LOCAL-00005" summary="generics">
+      <created>1675635073976</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675635073976</updated>
+    </task>
+    <task id="LOCAL-00006" summary="generics">
+      <created>1675635099112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675635099113</updated>
     </task>
     <task id="LOCAL-00007" summary="generics">
       <created>1675969152601</created>
@@ -506,21 +521,7 @@
       <option name="project" value="LOCAL" />
       <updated>1685209818324</updated>
     </task>
-    <task id="LOCAL-00054" summary="Employee task">
-      <created>1685210465680</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1685210465680</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Employee task">
-      <created>1685212182039</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1685212182039</updated>
-    </task>
-    <option name="localTasksCounter" value="56" />
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
