@@ -3,6 +3,7 @@ package com.cydeo;
 import com.cydeo.tasks.dishTask.Dish;
 import com.cydeo.tasks.dishTask.DishData;
 
+import java.util.Comparator;
 import java.util.Optional;
 
 public class FindingMatching {
@@ -32,6 +33,17 @@ public class FindingMatching {
         System.out.println("FIND FIRST");
         Optional<Dish> dish2 = DishData.getAll().stream().filter(Dish::isVegetarian).findFirst();
         System.out.println(dish2.get());
+
+        System.out.println("MIN AND MAX");
+
+        Optional<Dish> dMin = DishData.getAll().stream().min(Comparator.comparing(Dish::getCalories));
+        System.out.println(dMin.get());
+
+        Optional<Dish> dMax = DishData.getAll().stream().max(Comparator.comparing(Dish::getCalories));
+        System.out.println(dMax.get());
+
+
+
 
     }
 
