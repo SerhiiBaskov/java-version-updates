@@ -2,6 +2,7 @@ package com.cydeo;
 
 import com.cydeo.tasks.dishTask.Dish;
 import com.cydeo.tasks.dishTask.DishData;
+import com.cydeo.tasks.dishTask.Type;
 import com.sun.source.doctree.SeeTree;
 
 import java.util.*;
@@ -75,6 +76,19 @@ public class CollectorsDemo {
 
         System.out.println(str);
 
+        // partitioningBy() - is used to partition a stream of objects (or a set of elements) based on a given predicate
+
+        Map<Boolean, List<Dish>> veggieDish = DishData.getAll().stream()
+                .collect(Collectors.partitioningBy(Dish::isVegetarian));
+
+        System.out.println(veggieDish);
+
+        // groupingBy() - is used for grouping objects by some property and storing results in a map instance
+
+        Map<Type, List<Dish>> dishType = DishData.getAll().stream()
+                .collect(Collectors.groupingBy(Dish::getType));
+
+        System.out.println(dishType);
 
     }
 }
