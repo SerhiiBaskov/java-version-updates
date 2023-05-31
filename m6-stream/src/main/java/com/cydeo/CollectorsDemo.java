@@ -1,5 +1,7 @@
 package com.cydeo;
 
+import com.cydeo.tasks.dishTask.Dish;
+import com.cydeo.tasks.dishTask.DishData;
 import com.sun.source.doctree.SeeTree;
 
 import java.util.*;
@@ -23,6 +25,41 @@ public class CollectorsDemo {
                 .collect(Collectors.toCollection(HashSet::new));
 
         System.out.println(numberSet);
+
+        // toList() - returns a Collector interface that gathers the input data into a new list
+
+        List<Integer> numberList2 = numbers.stream()
+                .filter(x -> x%2 == 0)
+                .collect(Collectors.toList());
+
+        // toSet() - returns a Collector interface that gathers the input data into a new set
+
+        Set<Integer> numberSet2 = numbers.stream()
+                .filter(x -> x%2 == 0)
+                .collect(Collectors.toSet());
+
+        // toMap(Function, Function) - returns a Collector interface that gathers the input data into a new map
+
+        Map<String, Integer> dishMap =  DishData.getAll().stream()
+                .collect(Collectors.toMap(Dish::getName, Dish::getCalories));
+
+        System.out.println(dishMap);
+
+        // summingInt(ToIntFunction) - returns a Collector that produces the sum of a Integer-valued function
+
+        Integer sum = DishData.getAll().stream()
+                .collect(Collectors.summingInt(Dish::getCalories));
+
+        System.out.println(sum);
+
+        // counting() - returns a Collector that counts yhe number of the elements
+
+        Long evenCount = numbers.stream()
+                .filter(x -> x%2 == 0)
+                .collect(Collectors.counting());
+
+        System.out.println(evenCount);
+
 
 
     }

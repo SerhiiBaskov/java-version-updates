@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Reducing">
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Collectors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/CollectorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/CollectorsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +166,7 @@
       <workItem from="1685207099571" duration="2006000" />
       <workItem from="1685384887378" duration="594000" />
       <workItem from="1685469827513" duration="4748000" />
-      <workItem from="1685527386889" duration="1036000" />
-    </task>
-    <task id="LOCAL-00011" summary="enums">
-      <created>1678561999372</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1678561999372</updated>
+      <workItem from="1685527386889" duration="3564000" />
     </task>
     <task id="LOCAL-00012" summary="enums">
       <created>1678564126027</created>
@@ -510,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685475302605</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Collectors">
+      <created>1685528735340</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1685528735341</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +551,8 @@
     <MESSAGE value="Employee task" />
     <MESSAGE value="Finding &amp; Matching" />
     <MESSAGE value="Reducing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reducing" />
+    <MESSAGE value="Collectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collectors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
