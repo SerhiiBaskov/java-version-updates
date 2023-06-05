@@ -53,7 +53,7 @@ public class CollectorsDemo {
 
         System.out.println(sum);
 
-        // counting() - returns a Collector that counts yhe number of the elements
+        // counting() - returns a Collector that counts the number of the elements
 
         Long evenCount = numbers.stream()
                 .filter(x -> x%2 == 0)
