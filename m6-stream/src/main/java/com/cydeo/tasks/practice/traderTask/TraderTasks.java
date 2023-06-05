@@ -1,7 +1,9 @@
 package com.cydeo.tasks.practice.traderTask;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class TraderTasks {
@@ -61,6 +63,50 @@ public class TraderTasks {
                 .collect(Collectors.joining(", "));
 
         System.out.println(traders);
+
+// 5. Are any traders based in Milan?
+
+        System.out.println("----------------------------");
+
+        if(transactions.stream().anyMatch(i -> i.getTrader().getCity().equals("Milan"))){
+            System.out.println("There are traders in Milan");
+        }else {
+            System.out.println("There are no traders in Milan");
+        }
+
+// 6. Print the values of all transactions from the traders living in Cambridge.
+
+        System.out.println("-------------------------------");
+
+        transactions.stream()
+                .filter(i -> i.getTrader().getCity().equals("Cambridge"))
+                .map(Transaction::getValue)
+                .forEach(System.out::println);
+
+// 7. What is the highest value of all the transactions?
+
+        System.out.println("----------------------------------");
+
+        transactions.stream()
+                .map(Transaction::getValue)
+                .sorted(Comparator.reverseOrder())
+                .limit(1)
+                .forEach(System.out::println);
+
+        Optional<Transaction> maxValue = transactions.stream()
+                .max(Comparator.comparing(Transaction::getValue));
+
+        System.out.println(maxValue.get().getValue());
+
+// 8. Find the transaction with the smallest value.
+
+        System.out.println("------------------------");
+
+        Optional<Transaction> minValue = transactions.stream()
+                .min(Comparator.comparing(Transaction::getValue));
+
+        System.out.println(minValue.get());
+
 
 
 
