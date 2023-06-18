@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Optional">
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="BigDecimal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/src/main/java/com/cydeo/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/src/main/java/com/cydeo/BigDecimalDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +167,7 @@
       <workItem from="1685384887378" duration="594000" />
       <workItem from="1685469827513" duration="4748000" />
       <workItem from="1685527386889" duration="20334000" />
-      <workItem from="1687085521868" duration="4868000" />
-    </task>
-    <task id="LOCAL-00020" summary="lambda">
-      <created>1678908163344</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1678908163344</updated>
+      <workItem from="1687085521868" duration="5487000" />
     </task>
     <task id="LOCAL-00021" summary="Apple test">
       <created>1679591150504</created>
@@ -511,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687103142389</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="BigDecimal">
+      <created>1687106239254</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1687106239254</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="printDoubled method is created" />
     <MESSAGE value="new classes" />
     <MESSAGE value="generics" />
     <MESSAGE value="enums" />
@@ -554,7 +554,8 @@
     <MESSAGE value="Collectors" />
     <MESSAGE value="Trader task" />
     <MESSAGE value="Optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optional" />
+    <MESSAGE value="BigDecimal" />
+    <option name="LAST_COMMIT_MESSAGE" value="BigDecimal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
