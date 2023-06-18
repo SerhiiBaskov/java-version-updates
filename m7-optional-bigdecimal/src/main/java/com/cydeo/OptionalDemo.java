@@ -23,6 +23,14 @@ public class OptionalDemo {
         Optional<Integer> bigNumber = number.stream().filter(x -> x>100).findAny();
         bigNumber.ifPresent(System.out::println);
 
+        // get()
+
+//        System.out.println(bigNumber.get());
+
+        // orElse
+
+        System.out.println(bigNumber.orElse(5));
+
 
     }
 }

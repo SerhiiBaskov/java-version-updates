@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Trader task">
-      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Optional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/src/main/java/com/cydeo/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/src/main/java/com/cydeo/OptionalDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,14 +167,7 @@
       <workItem from="1685384887378" duration="594000" />
       <workItem from="1685469827513" duration="4748000" />
       <workItem from="1685527386889" duration="20334000" />
-      <workItem from="1687085521868" duration="2004000" />
-    </task>
-    <task id="LOCAL-00018" summary="lambda">
-      <created>1678651133100</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1678651133100</updated>
+      <workItem from="1687085521868" duration="2935000" />
     </task>
     <task id="LOCAL-00019" summary="lambda">
       <created>1678651681584</created>
@@ -514,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685990018791</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Optional">
+      <created>1687099712408</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1687099712421</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +554,8 @@
     <MESSAGE value="Reducing" />
     <MESSAGE value="Collectors" />
     <MESSAGE value="Trader task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trader task" />
+    <MESSAGE value="Optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
