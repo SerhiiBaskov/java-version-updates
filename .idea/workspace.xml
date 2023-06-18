@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Trader task">
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/tasks/practice/traderTask/TraderTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/cydeo/tasks/practice/traderTask/TraderTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
+    "jdk.selected.JAVA_MODULE": "azul-18",
     "last_opened_file_path": "C:/Users/ONLINE/IdeaProjects/java-version-updates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,10 +76,23 @@
       <recent name="C:\Users\ONLINE\IdeaProjects\java-version-updates\m1-generics1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TraderTasks">
+  <component name="RunManager" selected="Application.OptionalDemo">
     <configuration name="CollectorsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CollectorsDemo" />
       <module name="m6-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.OptionalDemo" />
+      <module name="m7-optional-bigdecimal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.*" />
@@ -127,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cydeo.FindingMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.FindingMatching" />
-      <module name="m6-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalDemo" />
         <item itemvalue="Application.TraderTasks" />
         <item itemvalue="Application.StreamOperations" />
         <item itemvalue="Application.CollectorsDemo" />
         <item itemvalue="Application.Reducing" />
-        <item itemvalue="Application.com.cydeo.FindingMatching" />
       </list>
     </recent_temporary>
   </component>
@@ -166,14 +168,8 @@
       <workItem from="1685207099571" duration="2006000" />
       <workItem from="1685384887378" duration="594000" />
       <workItem from="1685469827513" duration="4748000" />
-      <workItem from="1685527386889" duration="19715000" />
-    </task>
-    <task id="LOCAL-00017" summary="generics tasks">
-      <created>1678647815582</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1678647815582</updated>
+      <workItem from="1685527386889" duration="20334000" />
+      <workItem from="1687085521868" duration="2004000" />
     </task>
     <task id="LOCAL-00018" summary="lambda">
       <created>1678651133100</created>
@@ -511,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685987068108</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Trader task">
+      <created>1685990018791</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1685990018791</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
