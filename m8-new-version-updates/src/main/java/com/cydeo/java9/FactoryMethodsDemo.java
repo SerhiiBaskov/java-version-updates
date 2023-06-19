@@ -17,7 +17,7 @@ public class FactoryMethodsDemo {
         Set<String> myProducts = Set.of("Milk", "Bread", "Butter");
 
         // Creating unmodifiable Map after Java9
-        Map<String> myCart = Map.ofEntries(
+        Map<String, Integer> myCart = Map.ofEntries(
                 Map.entry("Samsung", 1),
                 Map.entry("PSP", 1),
                 Map.entry("Chair", 4)
