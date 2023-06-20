@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Factory Methods">
+    <list default="true" id="bb34e2c3-b961-4a32-95e8-ef709de14854" name="Changes" comment="Module Demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,14 +167,8 @@
       <workItem from="1685469827513" duration="4748000" />
       <workItem from="1685527386889" duration="20334000" />
       <workItem from="1687085521868" duration="7663000" />
-      <workItem from="1687193682257" duration="3468000" />
-    </task>
-    <task id="LOCAL-00024" summary="Lambda">
-      <created>1679595702022</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1679595702022</updated>
+      <workItem from="1687193682257" duration="4128000" />
+      <workItem from="1687281316662" duration="2411000" />
     </task>
     <task id="LOCAL-00025" summary="Orange task">
       <created>1681813345787</created>
@@ -512,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687197461321</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Module Demo">
+      <created>1687199663148</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1687199663148</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="generics" />
     <MESSAGE value="enums" />
     <MESSAGE value="generics tasks" />
     <MESSAGE value="lambda" />
@@ -555,7 +555,8 @@
     <MESSAGE value="Optional" />
     <MESSAGE value="BigDecimal" />
     <MESSAGE value="Factory Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Methods" />
+    <MESSAGE value="Module Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module Demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
